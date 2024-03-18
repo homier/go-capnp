@@ -6,9 +6,9 @@ import (
 	"net"
 	"sync"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/exp/spsc"
-	"capnproto.org/go/capnp/v3/rpc"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/exp/spsc"
+	"github.com/homier/go-capnp/v3/rpc"
 )
 
 // PeerID is the implementation of peer ids used by a test network

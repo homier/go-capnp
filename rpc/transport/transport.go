@@ -10,9 +10,9 @@ import (
 	"errors"
 	"io"
 
-	capnp "capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/exc"
-	rpccp "capnproto.org/go/capnp/v3/std/capnp/rpc"
+	capnp "github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/exc"
+	rpccp "github.com/homier/go-capnp/v3/std/capnp/rpc"
 )
 
 // A Transport sends and receives Cap'n Proto RPC messages to and from

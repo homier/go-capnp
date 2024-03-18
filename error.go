@@ -1,7 +1,7 @@
 package capnp
 
 import (
-	"capnproto.org/go/capnp/v3/exc"
+	"github.com/homier/go-capnp/v3/exc"
 )
 
 // TODO(someday):  progressively remove exported functions and instead

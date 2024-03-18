@@ -3,7 +3,7 @@ package rpc
 import (
 	"context"
 
-	capnp "capnproto.org/go/capnp/v3"
+	capnp "github.com/homier/go-capnp/v3"
 )
 
 // A PeerID identifies a peer on a Cap'n Proto network. The exact

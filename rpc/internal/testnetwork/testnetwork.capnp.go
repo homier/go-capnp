@@ -3,9 +3,9 @@
 package testnetwork
 
 import (
-	capnp "capnproto.org/go/capnp/v3"
-	text "capnproto.org/go/capnp/v3/encoding/text"
-	schemas "capnproto.org/go/capnp/v3/schemas"
+	capnp "github.com/homier/go-capnp/v3"
+	text "github.com/homier/go-capnp/v3/encoding/text"
+	schemas "github.com/homier/go-capnp/v3/schemas"
 )
 
 type PeerAndNonce capnp.Struct

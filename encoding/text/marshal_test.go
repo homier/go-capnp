@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/internal/schema"
-	"capnproto.org/go/capnp/v3/schemas"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/internal/schema"
+	"github.com/homier/go-capnp/v3/schemas"
 )
 
 func readTestFile(name string) ([]byte, error) {

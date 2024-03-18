@@ -24,7 +24,7 @@ using Go = import "/go.capnp";
 @0xbcfe42e3392b05a8;
 
 $Go.package("persistent_simple");
-$Go.import("capnproto.org/go/capnp/v3/capnpc-go/testdata/persistent-simple");
+$Go.import("github.com/homier/go-capnp/v3/capnpc-go/testdata/persistent-simple");
 
 interface Persistent {
 }

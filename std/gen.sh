@@ -27,7 +27,7 @@ gen_annotated_schema() {
 	cat "$infile" - > "$outfile" << EOF
 using Go = import "/go.capnp";
 \$Go.package("$package_name");
-\$Go.import("capnproto.org/go/capnp/v3/std/capnp/$package_name");
+\$Go.import("github.com/homier/go-capnp/v3/std/capnp/$package_name");
 EOF
 }
 

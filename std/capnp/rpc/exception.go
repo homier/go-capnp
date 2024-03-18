@@ -1,6 +1,6 @@
 package rpc
 
-import "capnproto.org/go/capnp/v3/exc"
+import "github.com/homier/go-capnp/v3/exc"
 
 // MarshalError fills in the fields of e according to err. Returns a non-nil
 // error if marshalling fails.

@@ -12,10 +12,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/flowcontrol"
-	"capnproto.org/go/capnp/v3/rpc/internal/testcapnp"
-	"capnproto.org/go/capnp/v3/rpc/transport"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/flowcontrol"
+	"github.com/homier/go-capnp/v3/rpc/internal/testcapnp"
+	"github.com/homier/go-capnp/v3/rpc/transport"
 )
 
 // measureTransport is a wrapper around another transport, and measures the

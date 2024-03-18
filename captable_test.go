@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"capnproto.org/go/capnp/v3"
+	"github.com/homier/go-capnp/v3"
 	"github.com/stretchr/testify/assert"
 )
 

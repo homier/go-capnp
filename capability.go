@@ -7,14 +7,14 @@ import (
 	"strconv"
 	"sync"
 
-	"capnproto.org/go/capnp/v3/exc"
-	"capnproto.org/go/capnp/v3/exp/bufferpool"
-	"capnproto.org/go/capnp/v3/flowcontrol"
-	"capnproto.org/go/capnp/v3/internal/str"
-	"capnproto.org/go/capnp/v3/util/deferred"
-	"capnproto.org/go/capnp/v3/util/maybe"
-	"capnproto.org/go/capnp/v3/util/rc"
-	"capnproto.org/go/capnp/v3/util/sync/mutex"
+	"github.com/homier/go-capnp/v3/exc"
+	"github.com/homier/go-capnp/v3/exp/bufferpool"
+	"github.com/homier/go-capnp/v3/flowcontrol"
+	"github.com/homier/go-capnp/v3/internal/str"
+	"github.com/homier/go-capnp/v3/util/deferred"
+	"github.com/homier/go-capnp/v3/util/maybe"
+	"github.com/homier/go-capnp/v3/util/rc"
+	"github.com/homier/go-capnp/v3/util/sync/mutex"
 )
 
 func init() {

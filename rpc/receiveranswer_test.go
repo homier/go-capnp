@@ -7,12 +7,12 @@ import (
 	"testing"
 
 	//"github.com/stretchr/testify/assert"
-	//rpccp "capnproto.org/go/capnp/v3/std/capnp/rpc"
+	//rpccp "github.com/homier/go-capnp/v3/std/capnp/rpc"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/rpc/internal/testcapnp"
-	"capnproto.org/go/capnp/v3/server"
-	"capnproto.org/go/capnp/v3/util"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/rpc/internal/testcapnp"
+	"github.com/homier/go-capnp/v3/server"
+	"github.com/homier/go-capnp/v3/util"
 )
 
 type capArgsTest struct {

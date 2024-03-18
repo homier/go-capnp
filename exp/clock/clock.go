@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"capnproto.org/go/capnp/v3/internal/syncutil"
+	"github.com/homier/go-capnp/v3/internal/syncutil"
 )
 
 // A Clock can measure time.

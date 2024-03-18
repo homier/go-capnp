@@ -3,11 +3,11 @@
 package persistent
 
 import (
-	capnp "capnproto.org/go/capnp/v3"
-	text "capnproto.org/go/capnp/v3/encoding/text"
-	fc "capnproto.org/go/capnp/v3/flowcontrol"
-	schemas "capnproto.org/go/capnp/v3/schemas"
-	server "capnproto.org/go/capnp/v3/server"
+	capnp "github.com/homier/go-capnp/v3"
+	text "github.com/homier/go-capnp/v3/encoding/text"
+	fc "github.com/homier/go-capnp/v3/flowcontrol"
+	schemas "github.com/homier/go-capnp/v3/schemas"
+	server "github.com/homier/go-capnp/v3/server"
 	context "context"
 )
 

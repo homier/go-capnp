@@ -128,4 +128,4 @@ annotation notification @0xa0a054dea32fd98c (method) :Void;
 
 using Go = import "/go.capnp";
 $Go.package("json");
-$Go.import("capnproto.org/go/capnp/v3/std/capnp/json");
+$Go.import("github.com/homier/go-capnp/v3/std/capnp/json");

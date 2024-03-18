@@ -1,4 +1,4 @@
-module capnproto.org/go/capnp/v3
+module github.com/homier/go-capnp/v3
 
 go 1.19
 

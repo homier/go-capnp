@@ -3,12 +3,12 @@
 package testcapnp
 
 import (
-	capnp "capnproto.org/go/capnp/v3"
-	text "capnproto.org/go/capnp/v3/encoding/text"
-	fc "capnproto.org/go/capnp/v3/flowcontrol"
-	schemas "capnproto.org/go/capnp/v3/schemas"
-	server "capnproto.org/go/capnp/v3/server"
-	stream "capnproto.org/go/capnp/v3/std/capnp/stream"
+	capnp "github.com/homier/go-capnp/v3"
+	text "github.com/homier/go-capnp/v3/encoding/text"
+	fc "github.com/homier/go-capnp/v3/flowcontrol"
+	schemas "github.com/homier/go-capnp/v3/schemas"
+	server "github.com/homier/go-capnp/v3/server"
+	stream "github.com/homier/go-capnp/v3/std/capnp/stream"
 	context "context"
 )
 

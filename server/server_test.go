@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"capnproto.org/go/capnp/v3"
-	air "capnproto.org/go/capnp/v3/internal/aircraftlib"
-	"capnproto.org/go/capnp/v3/server"
+	"github.com/homier/go-capnp/v3"
+	air "github.com/homier/go-capnp/v3/internal/aircraftlib"
+	"github.com/homier/go-capnp/v3/server"
 
 	"github.com/stretchr/testify/assert"
 )

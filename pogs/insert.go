@@ -6,9 +6,9 @@ import (
 	"math"
 	"reflect"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/internal/nodemap"
-	"capnproto.org/go/capnp/v3/internal/schema"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/internal/nodemap"
+	"github.com/homier/go-capnp/v3/internal/schema"
 )
 
 // Insert copies val, a pointer to a Go struct, into s.

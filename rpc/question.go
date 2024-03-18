@@ -3,9 +3,9 @@ package rpc
 import (
 	"context"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/internal/syncutil"
-	rpccp "capnproto.org/go/capnp/v3/std/capnp/rpc"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/internal/syncutil"
+	rpccp "github.com/homier/go-capnp/v3/std/capnp/rpc"
 )
 
 // A questionID is an index into the questions table.

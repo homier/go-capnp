@@ -8,7 +8,7 @@ import (
 	"context"
 	"sync"
 
-	"capnproto.org/go/capnp/v3/exp/spsc"
+	"github.com/homier/go-capnp/v3/exp/spsc"
 )
 
 // A multiple-producer, single-consumer queue. Create one with New(),

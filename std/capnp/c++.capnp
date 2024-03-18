@@ -49,4 +49,4 @@ annotation allowCancellation(interface, method, file) :Void;
 
 using Go = import "/go.capnp";
 $Go.package("cxx");
-$Go.import("capnproto.org/go/capnp/v3/std/capnp/cxx");
+$Go.import("github.com/homier/go-capnp/v3/std/capnp/cxx");

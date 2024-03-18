@@ -4,8 +4,8 @@ import (
 	"errors"
 	"sync"
 
-	"capnproto.org/go/capnp/v3/exp/bufferpool"
-	"capnproto.org/go/capnp/v3/internal/str"
+	"github.com/homier/go-capnp/v3/exp/bufferpool"
+	"github.com/homier/go-capnp/v3/internal/str"
 )
 
 // An Arena loads and allocates segments for a Message.

@@ -1,5 +1,5 @@
 // Package rpc implements the Cap'n Proto RPC protocol.
-package rpc // import "capnproto.org/go/capnp/v3/rpc"
+package rpc // import "github.com/homier/go-capnp/v3/rpc"
 
 import (
 	"context"
@@ -10,15 +10,15 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/exc"
-	"capnproto.org/go/capnp/v3/exp/spsc"
-	"capnproto.org/go/capnp/v3/internal/str"
-	"capnproto.org/go/capnp/v3/internal/syncutil"
-	"capnproto.org/go/capnp/v3/rpc/transport"
-	rpccp "capnproto.org/go/capnp/v3/std/capnp/rpc"
-	"capnproto.org/go/capnp/v3/util"
-	"capnproto.org/go/capnp/v3/util/deferred"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/exc"
+	"github.com/homier/go-capnp/v3/exp/spsc"
+	"github.com/homier/go-capnp/v3/internal/str"
+	"github.com/homier/go-capnp/v3/internal/syncutil"
+	"github.com/homier/go-capnp/v3/rpc/transport"
+	rpccp "github.com/homier/go-capnp/v3/std/capnp/rpc"
+	"github.com/homier/go-capnp/v3/util"
+	"github.com/homier/go-capnp/v3/util/deferred"
 )
 
 /*

@@ -3,8 +3,8 @@ package capnp
 import (
 	"bytes"
 
-	"capnproto.org/go/capnp/v3/exc"
-	"capnproto.org/go/capnp/v3/internal/str"
+	"github.com/homier/go-capnp/v3/exc"
+	"github.com/homier/go-capnp/v3/internal/str"
 )
 
 // A Ptr is a reference to a Cap'n Proto struct, list, or interface.

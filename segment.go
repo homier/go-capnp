@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"capnproto.org/go/capnp/v3/exc"
-	"capnproto.org/go/capnp/v3/internal/str"
+	"github.com/homier/go-capnp/v3/exc"
+	"github.com/homier/go-capnp/v3/internal/str"
 )
 
 // A SegmentID is a numeric identifier for a Segment.

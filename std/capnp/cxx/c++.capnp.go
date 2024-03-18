@@ -3,7 +3,7 @@
 package cxx
 
 import (
-	schemas "capnproto.org/go/capnp/v3/schemas"
+	schemas "github.com/homier/go-capnp/v3/schemas"
 )
 
 const Namespace_ = uint64(0xb9c6f99ebf805f2c)

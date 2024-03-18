@@ -21,7 +21,7 @@
 
 using Go = import "go.capnp";
 $Go.package("util");
-$Go.import("capnproto.org/go/capnp/v3/capnpc-go/testdata/util");
+$Go.import("github.com/homier/go-capnp/v3/capnpc-go/testdata/util");
 
 using DateInNs = Int64;
 using DurationInNs = UInt64;

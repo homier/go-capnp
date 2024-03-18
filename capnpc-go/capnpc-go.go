@@ -27,13 +27,13 @@ import (
 	"strings"
 	"text/template"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/internal/schema"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/internal/schema"
 )
 
 // Non-stdlib import paths.
 const (
-	capnpImport       = "capnproto.org/go/capnp/v3"
+	capnpImport       = "github.com/homier/go-capnp/v3"
 	textImport        = capnpImport + "/encoding/text"
 	schemasImport     = capnpImport + "/schemas"
 	serverImport      = capnpImport + "/server"

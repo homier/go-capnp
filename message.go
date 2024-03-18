@@ -7,9 +7,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"capnproto.org/go/capnp/v3/exc"
-	"capnproto.org/go/capnp/v3/internal/str"
-	"capnproto.org/go/capnp/v3/packed"
+	"github.com/homier/go-capnp/v3/exc"
+	"github.com/homier/go-capnp/v3/internal/str"
+	"github.com/homier/go-capnp/v3/packed"
 )
 
 // Security limits. Matches C++ implementation.

@@ -5,7 +5,7 @@ import (
 	context "context"
 	"time"
 
-	"capnproto.org/go/capnp/v3/flowcontrol"
+	"github.com/homier/go-capnp/v3/flowcontrol"
 )
 
 var _ flowcontrol.FlowLimiter = &TraceLimiter{}

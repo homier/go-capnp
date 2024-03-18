@@ -7,10 +7,10 @@ import (
 	"io"
 	"net"
 
-	"capnproto.org/go/capnp/v3/exc"
-	"capnproto.org/go/capnp/v3/exp/bufferpool"
-	"capnproto.org/go/capnp/v3/internal/str"
-	"capnproto.org/go/capnp/v3/packed"
+	"github.com/homier/go-capnp/v3/exc"
+	"github.com/homier/go-capnp/v3/exp/bufferpool"
+	"github.com/homier/go-capnp/v3/internal/str"
+	"github.com/homier/go-capnp/v3/packed"
 )
 
 // A Decoder represents a framer that deserializes a particular Cap'n

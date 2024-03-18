@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"books"
-	"capnproto.org/go/capnp/v3"
+	"github.com/homier/go-capnp/v3"
 )
 
 func main() {

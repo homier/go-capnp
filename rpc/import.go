@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/internal/str"
-	"capnproto.org/go/capnp/v3/internal/syncutil"
-	rpccp "capnproto.org/go/capnp/v3/std/capnp/rpc"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/internal/str"
+	"github.com/homier/go-capnp/v3/internal/syncutil"
+	rpccp "github.com/homier/go-capnp/v3/std/capnp/rpc"
 )
 
 // An importID is an index into the imports table.

@@ -23,7 +23,7 @@ package main
 
 import (
     "foo/books"
-    "capnproto.org/go/capnp/v3"
+    "github.com/homier/go-capnp/v3"
 )
 
 func main() {
@@ -80,7 +80,7 @@ So far, this looks a lot like Protocol Buffers.  In the next few sections, we'll
 
 In a narrow technical sense, there is no "marshalling" or "unmarshalling" in Cap'n Proto.  This is because the get and set operations you saw above act **directly on the object's underlying `[]byte` buffer**.  This is what makes reading and writing Cap'n Proto data blisteringly fast!
 
-Despite this slight inaccuracy, we still refer to the process of converting objects to and from `[]byte`s as *marshalling* and *unmarshalling*, and provide the corresponding methods [`Message.Marshal`](https://pkg.go.dev/capnproto.org/go/capnp/v3#Message.Marshal) and [`Message.Unmarshal`](https://pkg.go.dev/capnproto.org/go/capnp/v3#Message.Unmarshal).   We use this terminology for two reasons:
+Despite this slight inaccuracy, we still refer to the process of converting objects to and from `[]byte`s as *marshalling* and *unmarshalling*, and provide the corresponding methods [`Message.Marshal`](https://pkg.go.dev/github.com/homier/go-capnp/v3#Message.Marshal) and [`Message.Unmarshal`](https://pkg.go.dev/github.com/homier/go-capnp/v3#Message.Unmarshal).   We use this terminology for two reasons:
 
 1. the terms are familiar to most Go developers, and
 2. they correctly convey the essence of the operations:  `type -> []byte` and `[]byte -> type`, respectively for marshal and unmarshal.

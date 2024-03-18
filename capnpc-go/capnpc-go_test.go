@@ -17,9 +17,9 @@ import (
 	"strings"
 	"testing"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/encoding/text"
-	"capnproto.org/go/capnp/v3/internal/schema"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/encoding/text"
+	"github.com/homier/go-capnp/v3/internal/schema"
 )
 
 func readTestFile(name string) ([]byte, error) {
@@ -153,7 +153,7 @@ func TestRemoteScope(t *testing.T) {
 			remoteName: "otherscopes.Foo",
 			remoteNew:  "otherscopes.NewFoo",
 			imports: []importSpec{
-				{name: "otherscopes", path: "capnproto.org/go/capnp/v3/capnpc-go/testdata/otherscopes"},
+				{name: "otherscopes", path: "github.com/homier/go-capnp/v3/capnpc-go/testdata/otherscopes"},
 			},
 		},
 		{
@@ -168,7 +168,7 @@ func TestRemoteScope(t *testing.T) {
 			remoteName: "otherscopes.Foo_List",
 			remoteNew:  "otherscopes.NewFoo_List",
 			imports: []importSpec{
-				{name: "otherscopes", path: "capnproto.org/go/capnp/v3/capnpc-go/testdata/otherscopes"},
+				{name: "otherscopes", path: "github.com/homier/go-capnp/v3/capnpc-go/testdata/otherscopes"},
 			},
 		},
 		{
@@ -177,7 +177,7 @@ func TestRemoteScope(t *testing.T) {
 			remoteName: "capnp.Int32List",
 			remoteNew:  "capnp.NewInt32List",
 			imports: []importSpec{
-				{name: "capnp", path: "capnproto.org/go/capnp/v3"},
+				{name: "capnp", path: "github.com/homier/go-capnp/v3"},
 			},
 		},
 	}

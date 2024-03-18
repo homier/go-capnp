@@ -3,7 +3,7 @@
 package schema
 
 import (
-	capnp "capnproto.org/go/capnp/v3"
+	capnp "github.com/homier/go-capnp/v3"
 	math "math"
 	strconv "strconv"
 )

@@ -3,10 +3,10 @@ package pogs_test
 import (
 	"fmt"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/internal/demo/books"
-	"capnproto.org/go/capnp/v3/pogs"
-	"capnproto.org/go/capnp/v3/schemas"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/internal/demo/books"
+	"github.com/homier/go-capnp/v3/pogs"
+	"github.com/homier/go-capnp/v3/schemas"
 )
 
 func init() {

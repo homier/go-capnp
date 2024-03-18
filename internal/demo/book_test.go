@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/internal/demo/books"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/internal/demo/books"
 )
 
 func Example_book() {

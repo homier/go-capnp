@@ -5,10 +5,10 @@ import (
 	"net"
 	"testing"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/rpc"
-	"capnproto.org/go/capnp/v3/rpc/internal/testcapnp"
-	"capnproto.org/go/capnp/v3/rpc/transport"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/rpc"
+	"github.com/homier/go-capnp/v3/rpc/internal/testcapnp"
+	"github.com/homier/go-capnp/v3/rpc/transport"
 )
 
 // TestRejectOnDisconnect verifies that, when a connection is dropped, outstanding calls
