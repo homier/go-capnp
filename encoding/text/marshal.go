@@ -8,12 +8,12 @@ import (
 	"math"
 	"strconv"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/internal/nodemap"
-	"capnproto.org/go/capnp/v3/internal/schema"
-	"capnproto.org/go/capnp/v3/internal/str"
-	"capnproto.org/go/capnp/v3/internal/strquote"
-	"capnproto.org/go/capnp/v3/schemas"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/internal/nodemap"
+	"github.com/homier/go-capnp/v3/internal/schema"
+	"github.com/homier/go-capnp/v3/internal/str"
+	"github.com/homier/go-capnp/v3/internal/strquote"
+	"github.com/homier/go-capnp/v3/schemas"
 )
 
 // Marker strings.

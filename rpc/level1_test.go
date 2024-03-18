@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"testing"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/pogs"
-	"capnproto.org/go/capnp/v3/rpc"
-	"capnproto.org/go/capnp/v3/rpc/transport"
-	"capnproto.org/go/capnp/v3/server"
-	rpccp "capnproto.org/go/capnp/v3/std/capnp/rpc"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/pogs"
+	"github.com/homier/go-capnp/v3/rpc"
+	"github.com/homier/go-capnp/v3/rpc/transport"
+	"github.com/homier/go-capnp/v3/server"
+	rpccp "github.com/homier/go-capnp/v3/std/capnp/rpc"
 )
 
 func TestSendDisembargo(t *testing.T) {

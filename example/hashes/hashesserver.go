@@ -11,7 +11,7 @@ import (
 	"context"
 	"hashes"
 
-	"capnproto.org/go/capnp/v3/rpc"
+	"github.com/homier/go-capnp/v3/rpc"
 )
 
 const SOCK_ADDR = "/tmp/example.sock"

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net"
 
-	"capnproto.org/go/capnp/v3"
+	"github.com/homier/go-capnp/v3"
 )
 
 // Serve serves a Cap'n Proto RPC to incoming connections.

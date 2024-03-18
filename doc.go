@@ -10,7 +10,7 @@ Generating code
 capnpc-go provides the compiler backend for capnp.
 
 	# First, install capnpc-go to $PATH.
-	go install capnproto.org/go/capnp/v3/capnpc-go
+	go install github.com/homier/go-capnp/v3/capnpc-go
 	# Then, check out the go-capnp source code:
 	git clone https://github.com/capnproto/go-capnp /desired/path/to/go-capnp
 	# Then, generate Go files.
@@ -25,7 +25,7 @@ detect when two types are in the same package.  For example:
 
 	using Go = import "/go.capnp";
 	$Go.package("main");
-	$Go.import("capnproto.org/go/capnp/v3/example");
+	$Go.import("github.com/homier/go-capnp/v3/example");
 
 For adding documentation comments to the generated code, there's the doc
 annotation. This annotation adds the comment to a struct, enum or field so
@@ -382,4 +382,4 @@ A note about message ordering: by default, only one method per server will
 be invoked at a time; when implementing a server method which blocks or takes
 a long time, you calling the server.Go function to unblock future calls.
 */
-package capnp // import "capnproto.org/go/capnp/v3"
+package capnp // import "github.com/homier/go-capnp/v3"

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"capnproto.org/go/capnp/v3/exp/clock"
+	"github.com/homier/go-capnp/v3/exp/clock"
 
 	"github.com/stretchr/testify/assert"
 )

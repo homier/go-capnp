@@ -1,7 +1,7 @@
 package capnp
 
 import (
-	"capnproto.org/go/capnp/v3/internal/str"
+	"github.com/homier/go-capnp/v3/internal/str"
 )
 
 // pointerOffset is an address offset in multiples of word size.

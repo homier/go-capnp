@@ -1530,4 +1530,4 @@ using JoinResult = AnyPointer;
 # }
 using Go = import "/go.capnp";
 $Go.package("rpc");
-$Go.import("capnproto.org/go/capnp/v3/std/capnp/rpc");
+$Go.import("github.com/homier/go-capnp/v3/std/capnp/rpc");

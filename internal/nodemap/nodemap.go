@@ -2,9 +2,9 @@
 package nodemap
 
 import (
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/internal/schema"
-	"capnproto.org/go/capnp/v3/schemas"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/internal/schema"
+	"github.com/homier/go-capnp/v3/schemas"
 )
 
 // Map is a lazy index of a registry.

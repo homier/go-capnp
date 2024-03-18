@@ -5,9 +5,9 @@ import (
 	"math"
 	"strconv"
 
-	"capnproto.org/go/capnp/v3/exc"
-	"capnproto.org/go/capnp/v3/internal/str"
-	"capnproto.org/go/capnp/v3/internal/strquote"
+	"github.com/homier/go-capnp/v3/exc"
+	"github.com/homier/go-capnp/v3/internal/str"
+	"github.com/homier/go-capnp/v3/internal/strquote"
 )
 
 // A List is a reference to an array of values.

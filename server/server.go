@@ -1,16 +1,16 @@
 // Package server provides runtime support for implementing Cap'n Proto
 // interfaces locally.
-package server // import "capnproto.org/go/capnp/v3/server"
+package server // import "github.com/homier/go-capnp/v3/server"
 
 import (
 	"context"
 	"sort"
 	"sync"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/exc"
-	"capnproto.org/go/capnp/v3/exp/mpsc"
-	"capnproto.org/go/capnp/v3/internal/str"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/exc"
+	"github.com/homier/go-capnp/v3/exp/mpsc"
+	"github.com/homier/go-capnp/v3/internal/str"
 )
 
 // A Method describes a single capability method on a server object.

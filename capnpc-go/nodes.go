@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/internal/schema"
-	"capnproto.org/go/capnp/v3/std/capnp/stream"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/internal/schema"
+	"github.com/homier/go-capnp/v3/std/capnp/stream"
 )
 
 // These renames only apply to the codegen for struct fields.

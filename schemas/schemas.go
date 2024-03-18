@@ -16,8 +16,8 @@ import (
 	"strings"
 	"sync"
 
-	"capnproto.org/go/capnp/v3/internal/str"
-	"capnproto.org/go/capnp/v3/packed"
+	"github.com/homier/go-capnp/v3/internal/str"
+	"github.com/homier/go-capnp/v3/packed"
 )
 
 // A Schema is a collection of schema nodes parsed by the capnp tool.

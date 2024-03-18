@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	capnp "capnproto.org/go/capnp/v3"
-	rpccp "capnproto.org/go/capnp/v3/std/capnp/rpc"
+	capnp "github.com/homier/go-capnp/v3"
+	rpccp "github.com/homier/go-capnp/v3/std/capnp/rpc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

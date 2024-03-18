@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode"
 
-	"capnproto.org/go/capnp/v3"
+	"github.com/homier/go-capnp/v3"
 )
 
 var (

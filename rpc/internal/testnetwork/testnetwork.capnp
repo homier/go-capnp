@@ -4,7 +4,7 @@
 
 using Go = import "/go.capnp";
 $Go.package("testnetwork");
-$Go.import("capnproto.org/go/capnp/v3/rpc/internal/testnetwork");
+$Go.import("github.com/homier/go-capnp/v3/rpc/internal/testnetwork");
 
 struct PeerAndNonce {
   # A pair of peer ID and a nonce. This is the format for all

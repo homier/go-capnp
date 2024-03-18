@@ -5,7 +5,7 @@ import (
 	"math"
 	"time"
 
-	"capnproto.org/go/capnp/v3/exp/clock"
+	"github.com/homier/go-capnp/v3/exp/clock"
 )
 
 // A packetMeta contains metadata about a packet that was sent.

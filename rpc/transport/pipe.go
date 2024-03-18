@@ -4,8 +4,8 @@ import (
 	"io"
 	"sync"
 
-	capnp "capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/internal/syncutil"
+	capnp "github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/internal/syncutil"
 )
 
 // NewPipe returns a pair of codecs which communicate over

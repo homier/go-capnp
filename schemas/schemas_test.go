@@ -3,10 +3,10 @@ package schemas_test
 import (
 	"testing"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/internal/schema"
-	"capnproto.org/go/capnp/v3/schemas"
-	gocp "capnproto.org/go/capnp/v3/std/go"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/internal/schema"
+	"github.com/homier/go-capnp/v3/schemas"
+	gocp "github.com/homier/go-capnp/v3/std/go"
 )
 
 func TestDefaultFind(t *testing.T) {

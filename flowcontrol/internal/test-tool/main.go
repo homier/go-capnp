@@ -11,13 +11,13 @@ import (
 	"sync"
 	"time"
 
-	capnp "capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/flowcontrol"
-	"capnproto.org/go/capnp/v3/flowcontrol/bbr"
-	"capnproto.org/go/capnp/v3/flowcontrol/tracing"
-	"capnproto.org/go/capnp/v3/internal/syncutil"
-	"capnproto.org/go/capnp/v3/rpc"
-	"capnproto.org/go/capnp/v3/util"
+	capnp "github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/flowcontrol"
+	"github.com/homier/go-capnp/v3/flowcontrol/bbr"
+	"github.com/homier/go-capnp/v3/flowcontrol/tracing"
+	"github.com/homier/go-capnp/v3/internal/syncutil"
+	"github.com/homier/go-capnp/v3/rpc"
+	"github.com/homier/go-capnp/v3/util"
 )
 
 var (

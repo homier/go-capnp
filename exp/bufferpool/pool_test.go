@@ -3,7 +3,7 @@ package bufferpool_test
 import (
 	"testing"
 
-	"capnproto.org/go/capnp/v3/exp/bufferpool"
+	"github.com/homier/go-capnp/v3/exp/bufferpool"
 	"github.com/stretchr/testify/assert"
 )
 

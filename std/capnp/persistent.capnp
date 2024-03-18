@@ -123,4 +123,4 @@ annotation persistent(interface, field) :Void;
 
 using Go = import "/go.capnp";
 $Go.package("persistent");
-$Go.import("capnproto.org/go/capnp/v3/std/capnp/persistent");
+$Go.import("github.com/homier/go-capnp/v3/std/capnp/persistent");

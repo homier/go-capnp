@@ -5,10 +5,10 @@ import (
 	"errors"
 	"strconv"
 
-	"capnproto.org/go/capnp/v3/exc"
-	"capnproto.org/go/capnp/v3/internal/str"
-	"capnproto.org/go/capnp/v3/util/deferred"
-	"capnproto.org/go/capnp/v3/util/sync/mutex"
+	"github.com/homier/go-capnp/v3/exc"
+	"github.com/homier/go-capnp/v3/internal/str"
+	"github.com/homier/go-capnp/v3/util/deferred"
+	"github.com/homier/go-capnp/v3/util/sync/mutex"
 )
 
 // A Promise holds the result of an RPC call.  Only one of Fulfill

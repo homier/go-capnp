@@ -6,10 +6,10 @@ import (
 	"net"
 	"testing"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/flowcontrol"
-	"capnproto.org/go/capnp/v3/rpc"
-	testcp "capnproto.org/go/capnp/v3/rpc/internal/testcapnp"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/flowcontrol"
+	"github.com/homier/go-capnp/v3/rpc"
+	testcp "github.com/homier/go-capnp/v3/rpc/internal/testcapnp"
 )
 
 type benchmarkStreamingConfig struct {

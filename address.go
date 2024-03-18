@@ -3,7 +3,7 @@ package capnp
 import (
 	"strconv"
 
-	"capnproto.org/go/capnp/v3/internal/str"
+	"github.com/homier/go-capnp/v3/internal/str"
 )
 
 // An address is an index inside a segment's data (in bytes).

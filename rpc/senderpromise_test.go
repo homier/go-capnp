@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"testing"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/rpc"
-	"capnproto.org/go/capnp/v3/rpc/internal/testcapnp"
-	"capnproto.org/go/capnp/v3/rpc/transport"
-	rpccp "capnproto.org/go/capnp/v3/std/capnp/rpc"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/rpc"
+	"github.com/homier/go-capnp/v3/rpc/internal/testcapnp"
+	"github.com/homier/go-capnp/v3/rpc/transport"
+	rpccp "github.com/homier/go-capnp/v3/std/capnp/rpc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

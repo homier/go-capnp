@@ -6,7 +6,7 @@ Then, run the following command to install the compiler plugin for the
 Go language:
 
 ```bash
-go install capnproto.org/go/capnp/v3/capnpc-go@latest
+go install github.com/homier/go-capnp/v3/capnpc-go@latest
 ```
 
 This will install a `capnpc-go` executable under `$(go env GOPATH)/bin`,

@@ -10,9 +10,9 @@ import (
 	"time"
 	"unsafe"
 
-	"capnproto.org/go/capnp/v3"
-	air "capnproto.org/go/capnp/v3/internal/aircraftlib"
-	"capnproto.org/go/capnp/v3/internal/capnptool"
+	"github.com/homier/go-capnp/v3"
+	air "github.com/homier/go-capnp/v3/internal/aircraftlib"
+	"github.com/homier/go-capnp/v3/internal/capnptool"
 )
 
 // A marshalTest tests whether a message can be encoded then read by the

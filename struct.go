@@ -3,8 +3,8 @@ package capnp
 import (
 	"errors"
 
-	"capnproto.org/go/capnp/v3/exc"
-	"capnproto.org/go/capnp/v3/internal/str"
+	"github.com/homier/go-capnp/v3/exc"
+	"github.com/homier/go-capnp/v3/internal/str"
 )
 
 // Struct is a pointer to a struct.

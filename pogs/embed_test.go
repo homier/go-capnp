@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"capnproto.org/go/capnp/v3"
-	air "capnproto.org/go/capnp/v3/internal/aircraftlib"
-	"capnproto.org/go/capnp/v3/schemas"
+	"github.com/homier/go-capnp/v3"
+	air "github.com/homier/go-capnp/v3/internal/aircraftlib"
+	"github.com/homier/go-capnp/v3/schemas"
 )
 
 func init() {

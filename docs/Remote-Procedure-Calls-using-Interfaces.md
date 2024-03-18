@@ -85,7 +85,7 @@ Let's define our `Arith` server.  In the same directory, create an `arith.go` fi
 ```go
 package arith
 
-import capnp "capnproto.org/go/capnp/v3"
+import capnp "github.com/homier/go-capnp/v3"
 
 // ArithServer satisfies the Arith_Server interface that was generated
 // by the capnp compiler.
@@ -266,7 +266,7 @@ from the `flowcontrol` package. You can do this with `SetFlowLimiter` on
 any capability:
 
 ```go
-import "capnproto.org/go/capnp/v3/flowcontrol"
+import "github.com/homier/go-capnp/v3/flowcontrol"
 
 // ...
 

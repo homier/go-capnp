@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/rpc"
-	testcp "capnproto.org/go/capnp/v3/rpc/internal/testcapnp"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/rpc"
+	testcp "github.com/homier/go-capnp/v3/rpc/internal/testcapnp"
 )
 
 // Test connect/disconnect to a pingpong capability

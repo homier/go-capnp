@@ -5,11 +5,11 @@ import (
 	"errors"
 	"sync"
 
-	"capnproto.org/go/capnp/v3"
-	"capnproto.org/go/capnp/v3/exc"
-	"capnproto.org/go/capnp/v3/internal/rc"
-	rpccp "capnproto.org/go/capnp/v3/std/capnp/rpc"
-	"capnproto.org/go/capnp/v3/util/deferred"
+	"github.com/homier/go-capnp/v3"
+	"github.com/homier/go-capnp/v3/exc"
+	"github.com/homier/go-capnp/v3/internal/rc"
+	rpccp "github.com/homier/go-capnp/v3/std/capnp/rpc"
+	"github.com/homier/go-capnp/v3/util/deferred"
 )
 
 // An answerID is an index into the answers table.

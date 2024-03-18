@@ -50,4 +50,4 @@ struct StreamResult @0x995f9a3377c0b16e {
 }
 using Go = import "/go.capnp";
 $Go.package("stream");
-$Go.import("capnproto.org/go/capnp/v3/std/capnp/stream");
+$Go.import("github.com/homier/go-capnp/v3/std/capnp/stream");

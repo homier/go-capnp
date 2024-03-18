@@ -1,6 +1,6 @@
 package main
 
-import "capnproto.org/go/capnp/v3/internal/schema"
+import "github.com/homier/go-capnp/v3/internal/schema"
 
 type anyPointerRenderStrategy interface {
 	StructParams() any
